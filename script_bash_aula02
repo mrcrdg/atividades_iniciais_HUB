@@ -1,6 +1,7 @@
 
 /* 
-Exercício para Aula:
+Aula 01 - Linux - comandos/navegação
+
 crie um diretório no /tmp com o seu nome
 crie dois arquivos nesse diretorio criado
 copie um desses arquivos para o seu home
@@ -30,7 +31,8 @@ chmod a+x script.sh
 
 
 /* 
-Exercício pós-aula:
+Aula 02 - Linux - command line utilities
+
 Crie um arquivo com vários nomes de cidades (misturando cidades que começam com letra maíuscula minúscula, e cidades repetidas)
 
 Faça um script que retorna:
@@ -61,13 +63,127 @@ cat cidades
 nano script_cidades.sh
 
 cat script_cidades.sh
+
 sort cidades | uniq -c
+wc -l cidades
 
 
 
+
+/*
+Aula 3 - Exercícios Git/GitHub
+*/
+
 	
+Crie seu perfil no git hub
+Crie um repositório
+Crie uma cópia local desse repositório
+Crie um arquivo novo nesse repositório
+Atualize a versão remota do repositório
+Crie uma issue simulando uma possível alteração a ser feita ou bug a ser corrigido
+Crie uma branch do repositório
+
+Faça uma alteração na branch
+Sincronize a branch com a árvore Principal
+Faça fork do repositório de um dos residentes
+Crie um novo arquivo nesse repositório
+Faça um pull request para o repositório
+
 	
-	
+/* Aula 3 - Parte 2 - Referencial Teórico
+
+Exercício pós-aula (6-8-2020)
+
+O que é Kanban?
+Como é usado para auxiliar o processo de desenvolvimento de software?
+O que é Github Project
+Como Github Project pode auxiliar a implementar o modelo Kanban?
+Simule um projeto e atividades de projeto com base no kanban utilizando Github Project
+Faça uma apresentação dos resultados
+
+Respostas:
+
+
+Sistema de gerenciamento de produção e projeto, criado no japão em 1950, adotado pela Toyota.
+O kanban fornece facilidade a visualização do workflow do projeto (Lista/Pilha de tarefas), permitindo acompanhar o progresso e os delays.
+
+O kanban pode auxiliar a tracker e limitar a quantidade de tarefas em progresso.
+
+
+GitHub Project
+
+
+
+GitHub e Kanban
+
+
+*/
+
+
+/*
+Aula 03 - parte 2 - Exercícios
+
+1 exibir apenas números naturais ímpares de 1 até 99.
+
+2 Escreva um script Bash que aceite como entrada um nome e exiba uma saudação: "Bem-vindo (nome)"
+
+3 Use um loop para exibir os números naturais de 1 até 50
+
+4 Dado dois números inteiros, e, encontre sua soma, diferença, produto, quociente e resto da divisão.
+
+5 Leia em um caractere da entrada Se o caractere for 'Y' ou 'y', exiba "YES”, se o caractere for 'N' ou 'n', exiba "NÃO". Se for outra coisa exiba não conheço
+
+6 Dados três números inteiros (representando os três lados de um triângulo, identifique se o triângulo é escaleno, isósceles ou equilátero.
+
+7 receba um número N e o nome de um arquivo gere N números aleatoriamente e salve os números (um em cada linha) no arquivo passado como parâmetro
+
+8 considere um arquivo com diversos números (um em cada linha) calcule a média, desvio padrão e mediana
+
+9 Se o valor gasto por um cliente em um determinado dia for maior ou igual à 2x despesa mediana do cliente por um número final de dias, isso é considerado uma fraude potencial e um alerta é emitido.
+
+Dado o número de dias finais e as despesas diárias totais de um cliente por um período de dias, localize e imprima o número de vezes que o cliente receberá uma notificação durante todos os dias.
+
+Por exemplo, d=3 e gastos = [10,20,30,40,50] Nos três primeiros dias, eles apenas coletam dados de gastos. No dia 4 temos gastos finais [10,20,30] A mediana é 20 e a despesa do dia é 40. 40 é maior ou igual a 2x20 portanto haverá uma notificação de possível fraude No dia 5 os gastos são [20,30,40] a mediana é 30x2 que é igual a 60 e o gasto é 50 que é menor que 60, portanto nao haverá notificação de fraude
+
+Faça um script bash que recebe a movimentação em um arquivo texto e o valor d como parâmetro e retorno quantas notificações o cliente receberá Crie ao menos 3 arquivos de entrada de movimentação
+
+10
+
+Para duas cadeias A e B, definimos a similaridade das cadeias como sendo o comprimento do prefixo mais longo comum a ambas as cadeias. Por exemplo, a similaridade das cadeias "abc" e "abd" é 2, enquanto a similaridade das cadeias "aaa" e "aaab" é 3.
+
+Crie um script bash que implementa essa função de similaridade Invente uma outra métrica de obter similaridade de strings e faça uma análise comparativa usando uma mesma entrada
+
+11 Desenvolver uma aplicação em bash
+
+Realizar cadastros: usuários: id_usuario, Nome, idade, sexo Produtos: id_produto, valor, tamanho nota_fiscal: id_compra,id_usuario,data produtos_nota_fiscal: id_compra,id_produto,quantidade
+
+Criar um módulo que calcula:
+
+Média de quantidade de produtos comprados por usuário
+Média de valor por usuário
+Mostrar média de valor por categoria de usuário
+Ex1: média de valor gasto por homem x mulher
+Ex2: média de valor gasto por pessoas com idade entre 0 a 18 x pessoas com idade entre 18 a 99
+Valor médio de compra por horário
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 
 
