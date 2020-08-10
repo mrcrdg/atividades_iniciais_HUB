@@ -150,13 +150,15 @@ echo 'The reminder is: ' $((number2 % number1))
 se o caractere for 'N' ou 'n', exiba "NÃO". 
 Se for outra coisa exiba não conheço
 
-echo 'Insert a character: '
+#!/bin/bash
+
+echo 'Insert a char: '
 read char
 
-if [ "$char" = "Y"] || ["$char" = "y" ]
+if [[ "$char" == "Y" ]] || [[ "$char" == "y" ]]
 then
 echo "YES"
-elif ["$char" = "N"] || ["$char" ="n"]
+elif [[ "$char" == "N" ]] || [[ "$char" == "n" ]]
 then
 echo "NAO"
 else
@@ -164,7 +166,7 @@ echo "Char desconhecido"
 fi
 
 
-//6 Dados três números inteiros (representando os três lados de um triângulo, 
+6 Dados três números inteiros (representando os três lados de um triângulo, 
 identifique se o triângulo é escaleno, isósceles ou equilátero.
 #!/bin/bash
 
@@ -175,16 +177,16 @@ read y
 echo 'Enter z:'
 read z
 
-if [[x -eq  y]] && [[x -eq z]]; then
+if [[ x -eq  y ]] && [[ x -eq z ]]; then
 echo 'EQUILATERAL'
-elfi [[x -eq y]] || [[ x -eq z ]] || [[y -eq z]]; then
+elif [[ x -eq y ]] || [[ x -eq z ]] || [[ y -eq z ]]; then
 echo 'ISOSCELES'
 else
 echo 'SCALENE'
 fi
 
 
-//7 receba um número N e o nome de um arquivo gere N números aleatoriamente 
+7 receba um número N e o nome de um arquivo gere N números aleatoriamente 
 e salve os números (um em cada linha) no arquivo passado como parâmetro
 
 #!/bin/bash
@@ -196,9 +198,9 @@ echo 'Enter file name: '
 read name
 
 for ((i=0;i<N;i++));do
-var[i]=$RANDOM
-echo $var
+echo $RANDOM >> $name.txt
 done
+
 
 
 8 considere um arquivo com diversos números (um em cada linha) calcule a média, 
@@ -247,6 +249,10 @@ Mostrar média de valor por categoria de usuário
 Ex1: média de valor gasto por homem x mulher
 Ex2: média de valor gasto por pessoas com idade entre 0 a 18 x pessoas com idade entre 18 a 99
 Valor médio de compra por horário
+
+
+
+
 
 
 */
