@@ -1,15 +1,14 @@
 
-/* 
-Aula 01 - Linux - comandos/navegação
+#!/bin/bash
 
-crie um diretório no /tmp com o seu nome
-crie dois arquivos nesse diretorio criado
-copie um desses arquivos para o seu home
-copie o diretório criado para o seu home
-crie um script em bash que executa os passos acima (usando nano)
-troque o modo desse script para permitir a execução (chmod a+x <nome_do_arquivo>
-execute o script ./nomedoscript.sh 
-*/
+#Aula 01 - Linux - Comandos/navegação
+#crie um diretório no /tmp com o seu nome
+#crie dois arquivos nesse diretorio criado
+#copie um desses arquivos para o seu home
+#copie o diretório criado para o seu home
+#crie um script em bash que executa os passos acima (usando nano)
+#troque o modo desse script para permitir a execução (chmod a+x <nome_do_arquivo>
+#execute o script ./nomedoscript.sh 
 
 mkdir marcia
 touch teste01
@@ -28,21 +27,16 @@ chmod a+x script.sh
 ./script.sh
 
 
-/* 
-Aula 02 - Linux - command line utilities
-
-Crie um arquivo com vários nomes de cidades (misturando cidades que começam com letra maíuscula minúscula, e cidades repetidas)
-
-Faça um script que retorna:
-
-a quantidade de repeticoes por cidades
-a quantidade total de cidades no arquivo
-a quantidade única de cidades no arquivo
-a quantidade única de caracteres no arquivo
-Faça um script que classifica por ordem alfabetica decrescente as cidades por nome e salva em um arquivo chamado arq1
-Faça um script que selecione as cidades na posição 12 e 13 por ordem crescente e coloca em em um arquivo chamado arq2
-Faça um script que copia os arquivos arq1 e arq2 para /tmp e depois os apaga 
-*/
+#Aula 02 - Linux - command line utilities
+#Crie um arquivo com vários nomes de cidades (misturando cidades que começam com letra maíuscula minúscula, e cidades repetidas)
+#Faça um script que retorna:
+#a quantidade de repeticoes por cidades
+#a quantidade total de cidades no arquivo
+#a quantidade única de cidades no arquivo
+#a quantidade única de caracteres no arquivo
+#Faça um script que classifica por ordem alfabetica decrescente as cidades por nome e salva em um arquivo chamado arq1
+#Faça um script que selecione as cidades na posição 12 e 13 por ordem crescente e coloca em em um arquivo chamado arq2
+#Faça um script que copia os arquivos arq1 e arq2 para /tmp e depois os apaga 
 
 nano cidades
 cat cidades
@@ -67,50 +61,32 @@ unique characters: fold -w1 | sort -u
 classificar por ordem alfabetica: cat cidades | sort -n OU cat cidades | sort -rn
 
 
-
-
-/*
-Aula 3 - Exercícios Git/GitHub
-
-
-	
-Crie seu perfil no git hub
-Crie um repositório
-Crie uma cópia local desse repositório
-Crie um arquivo novo nesse repositório
-Atualize a versão remota do repositório
-Crie uma issue simulando uma possível alteração a ser feita ou bug a ser corrigido
-Crie uma branch do repositório
-Faça uma alteração na branch
-Sincronize a branch com a árvore Principal
-Faça fork do repositório de um dos residentes
-Crie um novo arquivo nesse repositório
-Faça um pull request para o repositório
-*/
-
-	
-/* Aula 3 - Parte 2 - Referencial Teórico
-
-Exercício pós-aula (6-8-2020)
-
-O que é Kanban?
-Como é usado para auxiliar o processo de desenvolvimento de software?
-O que é Github Project
-Como Github Project pode auxiliar a implementar o modelo Kanban?
-Simule um projeto e atividades de projeto com base no kanban utilizando Github Project
-Faça uma apresentação dos resultados
-
-Respostas:
-
-Sistema de gerenciamento de produção e projeto, criado no japão em 1950, adotado pela Toyota.
-O kanban fornece facilidade a visualização do workflow do projeto (Lista/Pilha de tarefas), permitindo acompanhar o progresso e os delays.
-O kanban pode auxiliar a tracker e limitar a quantidade de tarefas em progresso.
-
-GitHub Project
-
-GitHub e Kanban
-
-*/
+#Aula 3 - Exercícios Git/GitHub
+#Crie seu perfil no git hub
+#Crie um repositório
+#Crie uma cópia local desse repositório
+#Crie um arquivo novo nesse repositório
+#Atualize a versão remota do repositório
+#Crie uma issue simulando uma possível alteração a ser feita ou bug a ser corrigido
+#Crie uma branch do repositório
+#Faça uma alteração na branch
+#Sincronize a branch com a árvore Principal
+#Faça fork do repositório de um dos residentes
+#Crie um novo arquivo nesse repositório
+#Faça um pull request para o repositório
+#	
+#Parte 2 - Referencial Teórico
+#O que é Kanban?
+#Como é usado para auxiliar o processo de desenvolvimento de software?
+#O que é Github Project
+#Como Github Project pode auxiliar a implementar o modelo Kanban?
+#Simule um projeto e atividades de projeto com base no kanban utilizando Github Project
+#Faça uma apresentação dos resultados
+#
+#Respostas:
+#Sistema de gerenciamento de produção e projeto, criado no japão em 1950, adotado pela Toyota.
+#O kanban fornece facilidade a visualização do workflow do projeto (Lista/Pilha de tarefas), permitindo acompanhar o progresso e os delays.
+#O kanban pode auxiliar a tracker e limitar a quantidade de tarefas em progresso.
 
 
 /*

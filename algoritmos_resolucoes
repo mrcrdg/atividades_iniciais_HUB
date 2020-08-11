@@ -1,0 +1,56 @@
+
+// Atividade08
+
+
+mediana:
+
+ler e guardar a quatidade de linhas do arquivo:
+
+quantidade_linhas;
+
+
+if (quantidade de linhas % 2 != 0)
+		
+	mediana = ((quantidade de linhas + 1 / 2))
+
+else
+
+	if (quantidade de linhas % 2 = par)
+		
+		divisão = quantidade de linhas / 2;
+		
+		posição_1 = divisão ;
+		
+		posicao_2 = divisão + 1;
+						
+		mediana = (posição_1 + posição_2) / 2
+		
+	end if	
+		
+end if
+
+
+imprimir mediana;
+
+
+//Atividade11
+
+1. calcular a variancia: verificar a distãncia de cada elemento da média dos valores
+
+2. elevar ao quadrado cada diferença
+
+3. somar o quadrado dos valores
+
+4.dividir a soma dos quadrados por N-1, temos a variância
+
+5. o desvio padrão é a raiz quadrada da variância
+
+<https://www.wikihow.com/Calculate-Standard-Deviation>
+
+
+
+
+
+
+
+
